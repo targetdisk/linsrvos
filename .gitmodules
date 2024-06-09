@@ -1,0 +1,3 @@
+[submodule "modules/crossdev-podman"]
+	path = modules/crossdev-podman
+	url = https://github.com/targetdisk/gentoo-crossdev-podman
