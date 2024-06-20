@@ -1,3 +1,6 @@
 [submodule "modules/crossdev-podman"]
 	path = modules/crossdev-podman
 	url = https://github.com/targetdisk/gentoo-crossdev-podman
+[submodule "modules/linux"]
+	path = modules/linux
+	url = https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git
