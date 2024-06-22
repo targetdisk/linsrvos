@@ -1,3 +1,4 @@
 ARCH ?= x86_64
 LIBC ?= musl
-TARGET ?= $(ARCH)-targetdisk-linux-$(LIBC)
+VENDOR ?= targetdisk
+TARGET ?= $(ARCH)-$(VENDOR)-linux-$(LIBC)
