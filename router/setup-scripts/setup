@@ -5,6 +5,7 @@ TMERGE=$TARGET-emerge
 PACKAGES=(
   # net-firewall/ufw  # Requires Python, might use/make something better
   net-dns/dnsmasq
+  dev-libs/libelf
   # sys-kernel/linux-firmware # Need to get license/determine if this is even necessary
 )
 
