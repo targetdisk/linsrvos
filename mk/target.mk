@@ -1,4 +1,4 @@
-ARCH ?= x86_64
-LIBC ?= musl
-VENDOR ?= targetdisk
-TARGET ?= $(ARCH)-$(VENDOR)-linux-$(LIBC)
+export ARCH ?= x86_64
+export LIBC ?= musl
+export VENDOR ?= targetdisk
+export TARGET ?= $(ARCH)-$(VENDOR)-linux-$(LIBC)
